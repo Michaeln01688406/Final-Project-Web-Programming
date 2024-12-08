@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="header">    
+            <a href="index.html" class="pageLogo">Portfolio</a>
+            <nav class="navBar">
+                <a href="index.html" class="navButton">Main</a>
+                <a href="resume.html" class="navButton">Resume</a>
+                <a href="skill.html" class="navButton">Skills</a>
+                <a href="projects.html" class="navButton">Projects</a>
+                <a href="aboutme.html" class="navButton">About me</a>
+                <a href="contact.html" class="navButton">Contact</a>
+            </nav>
+        </header>
+
+        <div class="content">
+            <h1>Projects</h1>
+
+            <section class="project">
+                <h2>1. Weather App</h2>
+                <button class="openModalBtn" data-modal="weatherModal">View Project</button>
+            </section>
+
+            <div id="weatherModal" class="modal">
+                <div class="modalContent">
+                    <span class="closeBtn">&times;</span>
+                    <h2>Weather App</h2>
+                    <img src="images/weather-app.png" alt="Weather App Image" width="500px">
+                    <p>For this project, I developed a weather application using HTML, CSS, and JavaScript. The app allows users to input a city name, retrieve weather data from the OpenWeather API (https://home.openweathermap.org/api_keys), and display the city’s name, temperature, and weather condition. The background image dynamically changes based on the weather condition, such as clear skies, rain, or snow. The application uses asynchronous programming with async/await to handle API requests, including proper error handling. The user interface features an input field for the city name, a search button to fetch the weather data, and a clear button to reset the input.
+
+                    </p>
+                    <a href="https://github.com/Michaeln01688406/WeatherApp" target="_blank">GitHub Repository</a>
+                </div>
+            </div>
+
+            <section class="project">
+                <h2>2. E-signature Web App</h2>
+                <button class="openModalBtn" data-modal="signatureModal">View Project</button>
+            </section>
+
+            <div id="signatureModal" class="modal">
+                <div class="modalContent">
+                    <span class="closeBtn">&times;</span>
+                    <h2>E-signature Web App</h2>
+                    <img src="images/e-signatureApp.png" alt="E-signature Web App Image" width="500px">
+                    <p>A website that allows you to e-sign any electronic file from either phone or laptop. This was made in collaboration with my 3 other classmates.</p>
+                    <a href="https://github.com/mukaj/signiature">GitHub Repository</a>
+                </div>
+            </div>
+
+            <section class="project">
+                <h2>3. Portfolio Website</h2>
+                <button class="openModalBtn" data-modal="portfolioModal">View Project</button>
+            </section>
+
+            <div id="portfolioModal" class="modal">
+                <div class="modalContent">
+                    <span class="closeBtn">&times;</span>
+                    <h2>Portfolio Website</h2>
+                    <img src="images/portfolioProject.png" alt="Portfolio Website Image" width="500px">
+                    <p>A portfolio website I made to document my projects during my time of study.</p>
+                    <a href="https://github.com/Michaeln01688406/Final-Project-Web-Programming.git" target="_blank">GitHub Repository</a>
+                </div>
+            </div>
+        </div>
+        <script src="scripts.js"></script>  
+    </body>
+</html>
